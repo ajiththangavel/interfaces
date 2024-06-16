@@ -1,9 +1,11 @@
+
 aidl_interface {
-    name: "android.hardware.invcase",
+    name: "android.hardware.carsenze",
     vendor: true,
-    srcs: ["android/hardware/invcase/*.aidl"],
+    srcs: ["android/hardware/carsenze/*.aidl"],
     stability: "vintf",
     owner: "vqtrong",
+
     backend: {
         cpp: {
             enabled: false,
@@ -12,4 +14,7 @@ aidl_interface {
             sdk_version: "module_current",
         },
     },
+
+
+
 }
