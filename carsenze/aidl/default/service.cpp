@@ -1,5 +1,3 @@
-
-
 #define LOG_TAG "Carsenze"
 
 #include <android-base/logging.h>
