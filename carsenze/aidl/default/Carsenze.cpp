@@ -22,7 +22,7 @@ namespace aidl {
                     return ndk::ScopedAStatus::ok();
                 }
 //String getNetworkStats();
-                ndk::ScopedAStatus Carsenze::getCpuStats(std::string* _aidl_return) {
+                ndk::ScopedAStatus Carsenze::getNetworkStats(std::string* _aidl_return) {
                     *_aidl_return =  "Network = 10 Mb/s";
                     return ndk::ScopedAStatus::ok();
                 }
